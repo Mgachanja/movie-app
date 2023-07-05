@@ -190,3 +190,8 @@ const Shows=document.getElementById("tv-shows")
 const genres=document.getElementById("genre")
 const sortDates=document.getElementById("date")
 
+//page opening functionality...............................
+ 
+movies.addEventListener("click",()=>{
+  open("movies.html")
+})
